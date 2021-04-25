@@ -38,7 +38,6 @@ p {
 }
 
 h1 {
-  font-size: 108px;
   color: white;
   text-align: center;
   vertical-align: middle;
@@ -56,4 +55,32 @@ footer>p {
   color: #DCDCDC;
   height: auto;
   padding: 40px;
+}
+
+/* h1 {
+  font-size: 108px;
+} */
+
+@media (max-width: 909px){
+  h1 {
+    font-size: 86px;
+  }
+
+  header {
+    height: 250px;
+  }
+
+  .container {
+    margin-top: 250px;
+  }
+
+  p {
+    max-width: 35em;
+  }
+}
+
+@media (min-width: 910px){
+  h1 {
+    font-size: 108px;
+  }
 }
